@@ -38,7 +38,7 @@ namespace JSONserialdeserial
 
             for (int i = 0; i < arrlength; i++)
             {
-               nums[i] = rand.Next(201);
+               nums[i] = rand.Next(1001);
             }
             string jsonString = JsonSerializer.Serialize(nums); // Сериализация в JSON и вывод в консоль
             Console.WriteLine(jsonString + " - JSON");

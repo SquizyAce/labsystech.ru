@@ -27,7 +27,7 @@ namespace JSONserialdeserial
                     nums = new int[arrlength];
                     check = true;
                 }
-                catch (IOException)
+                catch (Exception)
                 {
                     Console.WriteLine("Введите корректное число элементов!");
                 }
